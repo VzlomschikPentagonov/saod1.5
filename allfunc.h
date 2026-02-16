@@ -17,4 +17,6 @@ void print_array(int32_t*, int32_t);
 void fill_array_rand(int32_t*, int32_t);
 /*сортировка массива*/
 Stats sort(Stats(*)(int32_t*, int32_t), int32_t*, int32_t);
+Stats sort_(Stats(*)(int32_t*, int32_t, int32_t), int32_t*, int32_t, int32_t);
+
 #endif

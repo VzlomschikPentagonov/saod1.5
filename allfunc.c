@@ -23,3 +23,8 @@ void print_array(int32_t* array, int32_t length){
 Stats sort(Stats(*func)(int32_t*, int32_t), int32_t* array, int32_t length){
 	return func(array, length);
 }
+
+/*сортировка массива*/
+Stats sort_(Stats(*func)(int32_t*, int32_t, int32_t), int32_t* array, int32_t length, int32_t var){
+        return func(array, length, var);
+}
